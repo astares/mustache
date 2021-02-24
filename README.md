@@ -7,6 +7,13 @@ I have done an implementation for Mustache in smalltalk. It is available at smal
 
 Disclaimer: I’m talking about an implementation for smalltalk but to be honest I developed and tested it only on pharo smalltalk 2.0. If you need it for another dialect drop me note and we see what we can do.
 
+```Smalltalk
+Metacello new
+	repository: 'github://astares/mustache/repository';
+	baseline: 'Mustache';
+	load
+```
+
 A simple Mustache template looks like this (taken from the documentation):
 
     templateString := ‘Hello {{ name }} 
